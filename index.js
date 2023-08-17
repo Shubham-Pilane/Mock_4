@@ -72,7 +72,7 @@ app.get("/sortdata",async(req,res)=>{
 
 const port=process.env.port
 
-app.listen(port,async()=>{
+app.listen(8000,async()=>{
   try {
      await connection
      console.log("connected to Database !")
