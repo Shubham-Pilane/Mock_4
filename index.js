@@ -4,6 +4,7 @@ const mongoose=require("mongoose")
 const {connection}=require("./db")
 const {TravelModel}=require("./models/travelModel")
 const app=express()
+app.use(cors())
 app.use(express.json())
 
 //post data req
